@@ -1,15 +1,21 @@
+const { Base64 } = require('js-base64');
 const mapRGBAImage = require('./png');
 const mapElement = require('./xml');
 
 module.exports = {
   Png: {
-    toPng(rgbaImage) {
+    fromRGBAImage(rgbaImage) {
       return mapRGBAImage(rgbaImage);
     },
   },
   Xml: {
-    toXml(element) {
+    fromElement(element) {
       return mapElement(element);
+    },
+  },
+  Base64: {
+    fromUint8Array(array) {
+      return Base64.fromUint8Array(array);
     },
   },
 };
