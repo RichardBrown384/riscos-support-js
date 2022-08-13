@@ -1,0 +1,25 @@
+{
+  "name": "riscos-support",
+  "version": "1.0.0",
+  "description": "Shared library for RISC OS file projects",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "npx eslint src",
+    "lint:fix": "npx eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RichardBrown384/riscos-support-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardBrown384/riscos-support-js/issues"
+  },
+  "homepage": "https://github.com/RichardBrown384/riscos-support-js#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
