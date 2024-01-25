@@ -9,7 +9,7 @@ Provides related projects with very basic browser capable PNG, Base64, and XML c
 ## Installation
 
 ```bash
-npm install git+https://github.com/RichardBrown384/riscos-support-js.git
+npm install git+https://git@github.com/RichardBrown384/riscos-support-js.git
 ```
 
 ## Project status
